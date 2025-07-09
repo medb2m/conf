@@ -3,9 +3,9 @@ server:
 
 spring:
   application:
-    name: user-management
+    name: ms-supplier
   datasource:
-    url: jdbc:mysql://mysql:3306/user-sebteoui?createDatabaseIfNotExist=true&serverTimezone=UTC
+    url: jdbc:mysql://mysql:3306/supplier-db?createDatabaseIfNotExist=true&serverTimezone=UTC
     username: root
     password: root
   jpa:
@@ -23,4 +23,4 @@ eureka:
     prefer-ip-address: true
 
 custom:
-  message: Hello from config repo I'm PIzza Steve
+  message: config repo 
